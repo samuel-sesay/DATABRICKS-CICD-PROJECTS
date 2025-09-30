@@ -44,7 +44,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ secrets.PROD_DEPLOYMENT_TARGET_URL }}
       DATABRICKS_TOKEN: ${{ secrets.PROD_DEPLOYMENT_TARGET_TOKEN }}
-      REPO_PATH: <repo-path-from-databricks-workspace>
+      REPO_PATH: /Workspace/Users/samuel.he23862@student.rcl.ac.uk/PROD-DATABRICKS-GIT-FOLDER
 
     steps:
       - name: Checkout repository
